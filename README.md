@@ -6,7 +6,7 @@ The original MIT licence and copyright notice are preserved in [LICENSE](LICENSE
 
 **Compatibility:** this initial import retains the upstream Cursor-specific workflows. It has not yet been adapted or verified for Codex or other coding tools. The upstream installation commands below describe the original plugin, not an installation procedure for this standalone copy.
 
-See [UPSTREAM.md](UPSTREAM.md) for provenance. The upstream README follows unchanged.
+See [UPSTREAM.md](UPSTREAM.md) for provenance. The upstream README follows, with the comment-review description updated for this repository.
 
 ---
 
@@ -158,7 +158,7 @@ to keep [`/poteto-mode`](./skills/poteto-mode/SKILL.md) on across turns, pick it
 | [`/teach`](./skills/teach/SKILL.md) | you want to actually understand a change or subsystem, not just have it summarized. runs how + why and weaves one plain explanation, built up diagram by diagram. |
 | [`/tdd`](./skills/tdd/SKILL.md) | you're fixing a bug and there's a cheap local test path. write the failing test first, then the fix. |
 | [`/benchmark-checklist`](./skills/benchmark-checklist/SKILL.md) | you ran a benchmark or measured a speedup or regression. vets the number (limiter, tuning, errors, repeat runs, end-to-end relevance) before you report or act on it. |
-| [`/no-comments`](./skills/no-comments/SKILL.md) | strip comments before review; spawns Comment Sicko, fixes accepted findings, offers encodings for claimed constraints. |
+| [`/no-comments`](./skills/no-comments/SKILL.md) | review comments before review; preserve useful reasoning, remove redundant or demonstrably stale text, and flag uncertainty. |
 | [`/typescript-best-practices`](./skills/typescript-best-practices/SKILL.md) | you're reading or editing typescript. grounds the type-system-discipline principle in syntax. |
 | [`/figure-it-out`](./skills/figure-it-out/SKILL.md) | no bundled playbook fits. designs a rigorous, auditable playbook for the task. |
 | [`/show-me-your-work`](./skills/show-me-your-work/SKILL.md) | you want a reviewable decision trail. logs decisions to a tsv you can commit. |
